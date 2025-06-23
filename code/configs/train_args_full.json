@@ -2,7 +2,7 @@
     "output_dir": "./data/",
     "model_name_or_path": "meta-llama/Meta-Llama-3.1-8B-Instruct",
     "cache_dir": "./model/",
-    "deepspeed": "./code/SFT/ds_z3_config.json",
+    "deepspeed": "code/SFT/ds_z3_config.json",
     "train_data_path": "./data/train_data/dialog.json",
     
     "train_mode": "full",
