@@ -1,0 +1,4 @@
+!git clone https://github.com/larissamacb/Reproducao_Resultados_CrisisSenseLLM.git
+%cd Reproducao_Resultados_CrisisSenseLLM/
+!pip install torch transformers peft datasets deepspeed
+!deepspeed -- ./code/train.py --train_args_file './code/configs/train_args_lora.json' --lora_r 128 --lora_alpha 128 --lora_dropout 0.5 --loss_name "lora_128_128_05" --train_mode "lora"
